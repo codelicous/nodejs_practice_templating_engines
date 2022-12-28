@@ -1,0 +1,11 @@
+<link href="/css/users-list.css" rel="stylesheet" type="text/css">
+
+<h1>Users List: </h1>
+<div class="list-container">
+    <ul>
+        <% test.map(item => { %>
+            <li class="list-item"> <%= item %></li>
+        <% }) %>
+    </ul>
+</div>
+<%- include ('shared-partial.ejs') %>

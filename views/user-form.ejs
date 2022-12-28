@@ -1,0 +1,17 @@
+<link href="/css/user-form.css" rel="stylesheet" type="text/css">
+
+<div class="container">
+    <form name="user" method="post">
+    <div class="title">Please Insert User Name Here</div>
+
+        <input type="text" name="user">
+        <button type="submit"
+                formaction="/update-name">
+            Submit
+        </button>
+    </form>
+</div>
+
+<div>
+<%- include ('shared-partial.ejs') %>
+</div>
